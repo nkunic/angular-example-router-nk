@@ -1,0 +1,36 @@
+.homepage {
+  border: {
+    style: solid;
+    color: black;
+    width: 1px;
+  }
+  .homepage__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem;
+    a {
+      color: black;
+      font: {
+        size: 1rem;
+        weight: bold;
+      }
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .homepage__content {
+    border: {
+      top: {
+        style: solid;
+        color: black;
+        width: 1px;
+      }
+    }
+    padding: 0.625rem;
+  }
+}
